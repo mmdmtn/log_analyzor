@@ -12,33 +12,40 @@ def result():
     print("Total failed login:" ,failed_login)
     
     print("Failed log in by account:")
+    
     for username , count in usernames.items():
-        print(username, ":",count )
+
+            print(username, ":",count )
 
     highest_count = 0
 
     for user_n , count in usernames.items():
         if count > highest_count:
             highest_count = count
-        
-
-
-
-
+    print("-------- SECURITY ALERTS --------")    
     print("Highest failed login count:", highest_count)
     print("Accounts:")
 
+    suspicious_accounts = False
+    
     for user_name2, count2 in usernames.items():
+        
         if count2 == highest_count:
             print(user_name2)
 
-
+    for user_name2, count2 in usernames.items():
+        if count2 >= 10:
+            top_user = user_name2
+            suspicious_accounts = True
+            print("WARNING: Account " + top_user + " has" ,count2, "Failed Login Attempts!")
+            
+    if not suspicious_accounts:
+            print("No suspicious accounts found.")
+    
 try:
 
     usernames = {}
 
-
-    
     with open("sample.log.txt" , "r" , encoding="utf-8") as file:
         
         error_count = 0
@@ -60,9 +67,11 @@ try:
             elif "WARNING" in i:
                 warning_count += 1
 
-            if "Failed login" in i:
-                part = i.split()
-                username = part[-1]
+            part = i.split()
+            username = part[-1]
+                
+            if len(part) >= 8 and part[3:7] == ["Failed" , "login" , "for" , "user"]:
+
                 
                 if username in usernames:
                     usernames[username] += 1
