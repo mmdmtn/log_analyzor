@@ -70,7 +70,7 @@ try:
             part = i.split()
             username = part[-1]
                 
-            if len(part) >= 8 and part[3:7] == ["Failed" , "login" , "for" , "user"]:
+            if len(part) >= 6 and part[2:5] == ["Failed" , "login" , "for"]:
 
                 
                 if username in usernames:
