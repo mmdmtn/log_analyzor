@@ -1,0 +1,102 @@
+10:00:01 INFO Server started successfully
+10:00:04 INFO Database connection established
+10:00:08 INFO User login successful for ali
+10:00:13 INFO User login successful for sara
+10:00:19 WARNING CPU usage reached 78%
+10:00:24 ERROR Failed login for admin
+10:00:28 INFO API request completed status=200
+10:00:33 INFO User logout for ali
+10:00:39 ERROR Failed login for root
+10:00:44 INFO Scheduled task started: daily_backup
+10:00:50 WARNING Memory usage reached 82%
+10:00:56 ERROR Failed login for admin
+10:01:02 INFO User login successful for reza
+10:01:07 INFO File uploaded: report.pdf
+10:01:13 WARNING Disk space below 20%
+10:01:18 ERROR Failed login for guest
+10:01:24 INFO Database query completed in 120ms
+10:01:30 INFO User login successful for admin
+10:01:35 ERROR Permission denied for user guest
+10:01:41 INFO Firewall rules loaded
+10:01:47 WARNING Unusual network traffic detected
+10:01:53 ERROR Failed login for admin
+10:01:59 INFO Backup completed successfully
+10:02:05 INFO User logout for sara
+10:02:11 ERROR Failed login for root
+10:02:17 INFO API request completed status=200
+10:02:23 WARNING CPU usage reached 91%
+10:02:29 ERROR Connection timeout to database
+10:02:35 INFO User login successful for nima
+10:02:41 ERROR Failed login for admin
+10:02:47 INFO Service health check passed
+10:02:53 WARNING Too many requests from 192.168.1.45
+10:02:59 ERROR Failed login for guest
+10:03:05 INFO User logout for reza
+10:03:11 INFO New session created for nima
+10:03:17 ERROR Failed login for admin
+10:03:23 INFO Database connection pool refreshed
+10:03:29 WARNING Memory usage reached 88%
+10:03:35 ERROR Invalid API token received
+10:03:41 INFO User login successful for sara
+10:03:47 ERROR Failed login for root
+10:03:53 INFO Scheduled task completed: daily_backup
+10:03:59 WARNING Disk space below 15%
+10:04:05 ERROR Failed login for admin
+10:04:11 INFO HTTPS request completed status=200
+10:04:17 INFO User logout for nima
+10:04:23 ERROR Failed login for guest
+10:04:29 INFO Security rules updated
+10:04:35 WARNING Unusual outbound traffic detected
+10:04:41 ERROR Failed login for admin
+10:04:47 INFO Database query completed in 85ms
+10:04:53 ERROR Authentication service temporarily unavailable
+10:04:59 INFO User login successful for ali
+10:05:05 WARNING CPU usage reached 85%
+10:05:11 ERROR Failed login for root
+10:05:17 INFO Backup archive created
+10:05:23 ERROR Failed login for admin
+10:05:29 INFO User logout for sara
+10:05:35 WARNING High number of concurrent sessions
+10:05:41 ERROR Failed login for guest
+10:05:47 INFO Firewall health check passed
+10:05:53 ERROR Failed login for admin
+10:05:59 INFO API request completed status=201
+10:06:05 WARNING Network latency above threshold
+10:06:11 ERROR Failed login for root
+10:06:17 INFO User login successful for reza
+10:06:23 ERROR Failed login for admin
+10:06:29 INFO Database backup verification passed
+10:06:35 WARNING Memory usage reached 90%
+10:06:41 ERROR Failed login for guest
+10:06:47 INFO User logout for ali
+10:06:53 ERROR Failed login for admin
+10:06:59 INFO Scheduled task started: log_rotation
+10:07:05 WARNING Disk space below 10%
+10:07:11 ERROR Failed login for root
+10:07:17 INFO Log rotation completed
+10:07:23 ERROR Failed login for admin
+10:07:29 INFO User login successful for nima
+10:07:35 WARNING Suspicious login pattern detected
+10:07:41 ERROR Failed login for guest
+10:07:47 INFO Database connection stable
+10:07:53 ERROR Failed login for admin
+10:07:59 INFO User logout for reza
+10:08:05 WARNING CPU usage reached 93%
+10:08:11 ERROR Failed login for root
+10:08:17 INFO Security scan completed
+10:08:23 ERROR Failed login for admin
+10:08:29 INFO API request completed status=200
+10:08:35 WARNING Unusual network traffic detected
+10:08:41 ERROR Failed login for guest
+10:08:47 INFO User login successful for sara
+10:08:53 ERROR Failed login for admin
+10:08:59 INFO All services running normally
+10:09:05 WARNING Backup storage nearing capacity
+10:09:11 ERROR Failed login for root
+10:09:17 INFO User logout for nima
+10:09:23 ERROR Failed login for admin
+10:09:29 INFO System monitoring cycle completed
+10:09:35 WARNING High request rate detected
+10:09:41 ERROR Failed login for guest
+10:09:47 INFO Server health check passed
+10:09:53 INFO System shutdown requested
