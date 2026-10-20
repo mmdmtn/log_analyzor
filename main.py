@@ -58,19 +58,23 @@ try:
 
             total_lines += 1
 
-            if "INFO" in i:
+            if "INFO" in i or "info" in i:
                 total_info += 1
         
-            elif "ERROR" in i:
+            elif "ERROR" in i or "error" in i:
                 error_count += 1
 
-            elif "WARNING" in i:
+            elif "WARNING" in i or "warning" in i:
                 warning_count += 1
 
             part = i.split()
+
+            if not part:
+                continue
+
             username = part[-1]
                 
-            if len(part) >= 6 and part[2:5] == ["Failed" , "login" , "for"]:
+            if len(part) >= 6 and [word.lower() for word in part[2:5]] == ["failed" , "login" , "for"]:
 
                 
                 if username in usernames:
